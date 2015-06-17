@@ -1,0 +1,5 @@
+Given a list of integers, some of which may be negative, extract the pair that sums to the largest number
+
+Making it tricky:
+Given a list of integers, some of which may be negative, extract n of them that sums to the largest number
+What if some of the items in the list aren't numbers?

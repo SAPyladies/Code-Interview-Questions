@@ -1,0 +1,11 @@
+Write a function to calculate the nth fibonacci number where 'n' is a number passed into your program.
+
+reminder the fibonacci sequence looks like:
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144
+where the 0th fibonacci number is 0,
+the 1st fibonacci number is 1,
+etc...
+
+By definition, the first two numbers in the Fibonacci sequence are either 1 and 1, or 0 and 1, depending on the chosen starting point of the sequence, and each subsequent number is the sum of the previous two.
+
+Write this using recursion

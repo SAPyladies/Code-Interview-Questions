@@ -1,0 +1,5 @@
+Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
+
+Making it tricky:
+Can you make it so that you do not have a seperate check for whether a number if both a multiple of three and five?
+Can you take in a value?

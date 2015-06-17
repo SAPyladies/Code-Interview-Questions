@@ -1,0 +1,9 @@
+Create two functions. One that returns the boolean True if the number passed into the function is odd. One that returns the boolean True if if the number passed into the function is even.
+
+Use these two functions to sort a list of random integers into two lists - one of even values and one of odd values
+
+
+Make it tricky:
+
+Do you need to implement both is_even and is_odd?
+What is the Big O of your implementation? How could it be improved?

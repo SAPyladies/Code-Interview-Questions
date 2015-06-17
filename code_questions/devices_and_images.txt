@@ -1,0 +1,36 @@
+Given an object like:
+
+Class Device():
+    def __init__(self, name, id, type, ram, disk):
+	self.name = name
+	self.id = id
+	if type in ["mobile", "desktop", "embedded"]:
+            self.type = type
+        else:
+            self.type= "other"
+	self.ram = ram
+	self.disk = disk
+
+
+Given another object like:
+
+Class Image():
+    def __init__(self, name, id, type, min_ram, max_ram, min_disk, max_disk):
+	self.name = name
+	self.id = id
+	if type in ["mobile", "desktop", "embedded"]:
+            self.type = type
+        else:
+            self.type= "other"
+	self.min_ram = min_ram
+	self.max_ram = max_ram
+	self.min_disk = min_disk	
+	self.max_disk = max_disk    
+
+
+Write a function that takes in a list of Device objects and a list of Image objects and returns a list of pairs where every Image object is paired with an appropriate Device Object. A device object is 'appropriate' for an Image object if the value of the type parameter are the same(ie both are "mobile" etc)
+
+
+Make it tricky:
+What if the ram values on the image have to constrain to the ram values on the device? (ie the ram on the device must be greater or equal to the min_ram value of the image and less than the max_ram value?)
+What is the big O of your implementation? The naive implementation is O(n^2). Can you improve that?

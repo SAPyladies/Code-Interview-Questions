@@ -1,0 +1,5 @@
+Write a function that takes in a letter of the alphabet and returns it's position in the alphabet (function(a) would return 1)
+
+Make it tricky:
+What if we're unsafe and the thing passed into your function isn't in the alphabet?
+What if you need to localize your code to a location with a different alphabet? (Finland's alphabet has 3 additional letters for example)

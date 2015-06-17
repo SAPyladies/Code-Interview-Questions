@@ -1,0 +1,7 @@
+Given a haystack(a very long string) and a needle(another string) write a function to find the needle in the haystack.
+Find the first instance of the smaller string in the larger string and return the starting index
+
+
+Making it tricky:
+What if the needle string is larger then the haystack string?
+What is the Big O of your implementation? Is there a way you could optimize it?

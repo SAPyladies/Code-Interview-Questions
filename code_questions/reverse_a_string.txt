@@ -1,0 +1,4 @@
+Write a function that takes in a string and reverses it.
+
+Make it tricky:
+Reverse it in place
